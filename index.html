@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadSwitch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header .logo img {
+            height: 40px;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        header .auth-buttons a {
+            margin: 0 5px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: 2px solid #333;
+            border-radius: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+        header .auth-buttons a.join-now {
+            background-color: #333;
+            color: white;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 150px 10%;
+            background: url('images/blue.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero-section h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .hero-section .auth-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .hero-section .auth-buttons a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        .features-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 50px 10%;
+            background-color: white;
+            color: #333;
+        }
+        .features-section .feature {
+            width: 20%;
+            text-align: center;
+        }
+        .features-section .feature img {
+            width: 50px;
+            margin-bottom: 20px;
+        }
+        .features-section .feature h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .features-section .feature p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .services-section {
+            text-align: center;
+            padding: 50px 10%;
+            background-color: #f4f4f4;
+        }
+        .services-section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+        .services-section .service {
+            margin: 20px 0;
+        }
+        .services-section .service p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 10%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="images/leadswitch-logo.png" alt="LeadSwitch Logo">
+    </div>
+    <nav>
+        <a href="#">Activity</a>
+        <a href="#">About</a>
+        <a href="#">Search</a>
+    </nav>
+    <div class="auth-buttons">
+        <a href="#" class="log-in">Log in</a>
+        <a href="#" class="join-now">Join Now</a>
+    </div>
+</header>
+
+<div class="hero-section">
+    <h1>21st Century Lead Sharing</h1>
+    <h2>LEADSWITCH.ORG</h2>
+    <div class="auth-buttons">
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+    </div>
+</div>
+
+<div class="features-section">
+    <div class="feature">
+        <img src="images/leads-are-gold.png" alt="Leads Are Gold">
+        <h3>Leads Are Gold</h3>
+        <p>Reduce your dependence on paid advertising by working directly with other small business owners within the Leadswitch community.</p>
+    </div>
+    <div class="feature">
+        <img src="images/sit-back-or-lean-forward.png" alt="Sit Back or Lean Forward">
+        <h3>Sit Back or Lean Forward</h3>
+        <p>Grow your reputation in a safe, trusted environment, connecting with related businesses who wish to achieve the same thing: business growth.</p>
+    </div>
+    <div class="feature">
+        <img src="images/reputation-management.png" alt="Reputation Management">
+        <h3>Reputation Management</h3>
+        <p>In the world of business, your reputation is everything. Leadswitch helps you build and maintain a positive reputation.</p>
+    </div>
+    <div class="feature">
+        <img src="images/development.png" alt="Development">
+        <h3>Development</h3>
+        <p>Leadswitch facilitates small business owners to share and receive high-quality business leads, maximizing their chances of success.</p>
+    </div>
+    <div class="feature">
+        <img src="images/photography.png" alt="Photography">
+        <h3>Photography</h3>
+        <p>No more "reviews by drive-by shooting", where strangers can slam your business online anonymously.</p>
+    </div>
+</div>
+
+<div class="services-section">
+    <h2>Community Lead Sharing</h2>
+    <div class="service">
+        <p>Leadswitch facilitates small business owners to share and receive high-quality business leads, maximizing their chances of success.</p>
+    </div>
+    <div class="service">
+        <p>Reduce your dependence on paid advertising by working directly with other small business owners within the Leadswitch community. Grow your reputation in a safe, trusted environment, connecting with related businesses who wish to achieve the same thing: business growth.</p>
+    </div>
+    <div class="service">
+        <p>In the world of business, your reputation is everything. Leadswitch helps you build and maintain a positive reputation by facilitating high-quality connections and interactions. No more "reviews by drive-by shooting", where strangers can slam your business online anonymously.</p>
+    </div>
+    <a href="#" style="text-decoration: none; color: #333;">VIEW ALL SERVICES</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 LeadSwitch. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
